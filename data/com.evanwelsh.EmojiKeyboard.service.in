@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=com.evanwelsh.EmojiKeyboard
+Exec=@pkgdatadir@/com.evanwelsh.EmojiKeyboard

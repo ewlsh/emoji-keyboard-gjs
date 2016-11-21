@@ -1,0 +1,8 @@
+[type: gettext/glade]data/app-menu.ui
+[type: gettext/glade]data/main.ui
+data/com.evanwelsh.EmojiKeyboard.desktop.in
+data/com.evanwelsh.EmojiKeyboard.appdata.xml.in
+data/com.evanwelsh.EmojiKeyboard.gschema.xml
+src/main.js
+
+

@@ -1,0 +1,11 @@
+[Unit]
+# Optional
+Description=com.evanwelsh.EmojiKeyboard
+# Optional (obviously)
+Documentation=https://www.github.com/rockon999/emoji-keyboard/
+
+[BusName]
+# Optional
+Name=com.evanwelsh.EmojiKeyboard
+# Optional
+Service=com.evanwelsh.EmojiKeyboard.service

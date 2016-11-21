@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <id type="desktop">com.evanwelsh.EmojiKeyboard.desktop</id>
+  <licence>CC0</licence>
+  <description>
+    <_p>
+      Fill your description here.
+    </_p>
+  </description>
+  <screenshots>
+    <screenshot type="default" width="1024" height="768">https://www.github.com/rockon999/emoji-keyboard//screenshots/large.png</screenshot>
+  </screenshots>
+  <url type="homepage">https://www.github.com/rockon999/emoji-keyboard/</url>
+  <updatecontact>rockon999@users.noreply.github.com</updatecontact>
+</application>
