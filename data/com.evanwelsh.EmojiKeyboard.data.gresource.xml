@@ -4,5 +4,7 @@
     <file preprocess="xml-stripblanks">app-menu.ui</file>
     <file preprocess="xml-stripblanks">main.ui</file>
     <file>application.css</file>
+    <file>emoji.min.json</file>
+    <file>prefs.ui</file>
   </gresource>
 </gresources>

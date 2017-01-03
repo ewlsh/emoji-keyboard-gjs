@@ -1,0 +1,19 @@
+{
+    "packs": [
+        {
+            "name": "TwitterEmoji",
+            "src": "./images/twemoji/",
+            "version-support": 9
+        },
+        {
+            "name": "EmojiOne",
+            "src": "./images/emojione/",
+            "version-support": 10
+        },
+        {
+            "name": "EmojiOne B&W",
+            "src": "./images/emojione-bw/",
+            "version-support": 10
+        }
+    ]
+}

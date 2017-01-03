@@ -4,6 +4,11 @@
     <file>main.js</file>
     <file>params.js</file>
     <file>util.js</file>
-    <file>window.js</file>
+    <file>keyboard.js</file>
+    <file>emoji.js</file>
+    <file>emoji_set.js</file>
+    <file>emoji_dict.js</file>
+    <file>key.js</file>
+    <file>provider.js</file>
   </gresource>
 </gresources>

@@ -1,11 +1,66 @@
 <schemalist gettext-domain="com.evanwelsh.EmojiKeyboard">
-  <schema id="com.evanwelsh.EmojiKeyboard" path="/com/evanwelsh/EmojiKeyboard/">
-    <key name="dummy" type="b">
-      <default>true</default>
-      <summary>Dummy key</summary>
-      <description>
-	Dummy description
-      </description>
-    </key>
-  </schema>
+ 
+<enum id="com.evanwelsh.EmojiKeyboard.InsertionProvider">
+    <value nick="Atspi" value="1"/>
+    <value nick="Clipboard" value="2"/>
+  </enum>
+  <enum id="com.evanwelsh.EmojiKeyboard.TabPosition">
+    <value nick="Left" value="1"/>
+    <value nick="Right" value="2"/>
+    <value nick="Top" value="3"/>
+    <value nick="Bottom" value="4"/>
+  </enum>
+
+    <schema id="com.evanwelsh.EmojiKeyboard.gschema.xml" path="/com/evanwelsh/EmojiKeyboard/">
+        <key name="supported-unicode-version" type="d">
+            <default>9.0</default>
+            <summary>Show icon in menu</summary>
+            <description>Display icon if specified</description>
+        </key>
+        <key name="emoji-pack" type="s">
+            <default>"emojione"</default>
+            <summary>Show quicklists in AppMenus</summary>
+            <description>Display static actions list in AppMenu</description>
+        </key>
+        <key name="insertion-provider" enum="com.evanwelsh.EmojiKeyboard.InsertionProvider">
+            <default>'Clipboard'</default>
+            <summary>Ignore RemoteMenu.</summary>
+            <description>Shows quicklists in apps with their own custom menus.</description>
+        </key>
+        <key name="automatically-paste" type="b">
+            <default>false</default>
+            <summary>Show quicklists in AppMenus</summary>
+            <description>Display static actions list in AppMenu</description>
+        </key>
+        <key name="insert-space-after" type="b">
+            <default>false</default>
+            <summary>Show quicklists in AppMenus</summary>
+            <description>Display static actions list in AppMenu</description>
+        </key>
+        <key name="keyboard-height" type="i">
+            <default>0</default>
+            <summary>Show quicklists in AppMenus</summary>
+            <description>Display static actions list in AppMenu</description>
+        </key>
+        <key name="keyboard-width" type="i">
+            <default>0</default>
+            <summary>Show quicklists in AppMenus</summary>
+            <description>Display static actions list in AppMenu</description>
+        </key>
+        <key name="font-size" type="i">
+            <default>0</default>
+            <summary>Show quicklists in AppMenus</summary>
+            <description>Display static actions list in AppMenu</description>
+        </key>
+        <key name="tab-position" enum="com.evanwelsh.EmojiKeyboard.TabPosition">
+            <default>'Top'</default>
+            <summary>Show quicklists in AppMenus</summary>
+            <description>Display static actions list in AppMenu</description>
+        </key>
+        <key name="show-title-bar" type="b">
+            <default>false</default>
+            <summary>Show quicklists in AppMenus</summary>
+            <description>Display static actions list in AppMenu</description>
+        </key>
+    </schema>
 </schemalist>
